@@ -1,0 +1,54 @@
+## Core LaTeX/PDFLaTeX auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+## Intermediate documents:
+*.dvi
+*.xdv
+*-converted-to.*
+
+## Bibliography auxiliary files:
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+## Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+## Build tool directories:
+build/
+dist/
+
+## Auxiliary and intermediate files:
+auto/
+
+## Editor temporary/backup files:
+*~
+*.bak
+*.swp
+.DS_Store
+
+## Generated PDFs (optional, uncomment if you want to ignore PDFs):
+# *.pdf
+
+## Additional custom ignores:
+_minted*/
+*.pyg
